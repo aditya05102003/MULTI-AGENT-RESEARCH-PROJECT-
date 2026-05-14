@@ -1,0 +1,51 @@
+# ==========================================
+# MULTI AGENT RESEARCH SYSTEM REQUIREMENTS
+# ==========================================
+
+# -------- CORE LANGCHAIN --------
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-mistralai>=0.2.0
+langgraph>=0.2.0
+
+# -------- MISTRAL AI --------
+mistralai>=1.0.0
+
+# -------- SEARCH TOOL --------
+tavily-python>=0.5.0
+
+# -------- WEB SCRAPING --------
+beautifulsoup4>=4.12.0
+requests>=2.32.0
+lxml>=5.2.0
+html5lib>=1.1
+
+# -------- ENV VARIABLES --------
+python-dotenv>=1.0.1
+
+# -------- ASYNC / API --------
+aiohttp>=3.11.0
+httpx>=0.28.0
+
+# -------- DATA PROCESSING --------
+pandas>=2.2.0
+numpy>=2.0.0
+
+# -------- OUTPUT PARSING --------
+pydantic>=2.10.0
+orjson>=3.10.0
+
+# -------- LOGGING / TERMINAL --------
+rich>=13.9.0
+tqdm>=4.67.0
+
+# -------- LANGCHAIN OBSERVABILITY --------
+langsmith>=0.3.0
+
+# -------- OPTIONAL DEV TOOLS --------
+jupyter>=1.1.0
+ipykernel>=6.29.0
+
+# -------- OPTIONAL TOKENIZER --------
+tiktoken>=0.8.0
