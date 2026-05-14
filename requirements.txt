@@ -12,6 +12,9 @@ langgraph>=0.2.0
 # -------- MISTRAL AI --------
 mistralai>=1.0.0
 
+
+
+
 # -------- SEARCH TOOL --------
 tavily-python>=0.5.0
 
